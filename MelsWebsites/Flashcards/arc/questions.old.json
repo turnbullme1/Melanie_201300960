@@ -1,0 +1,3056 @@
+[
+    {
+        "id":"sv-001",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which of the following is NOT a characteristic of cloud computing?",
+        "options": [
+            "On-demand self-service",
+            "Broad network access",
+            "Limited resource pooling",
+            "Rapid elasticity"
+        ],
+        "answer": "Limited resource pooling",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-002",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "In virtualization, a Type 1 hypervisor is also known as:",
+        "options": [
+            "Hosted hypervisor",
+            "Bare-metal hypervisor",
+            "Client-side hypervisor",
+            "Nested hypervisor"
+        ],
+        "answer": "Bare-metal hypervisor",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-003",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "VMware Workstation Pro is classified as which type of hypervisor?",
+        "options": [
+            "Type 1 hypervisor",
+            "Type 2 hypervisor",
+            "Type 3 hypervisor",
+            "Cloud-based hypervisor"
+        ],
+        "answer": "Type 2 hypervisor",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-004",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which feature in Oracle VM VirtualBox allows seamless integration of guest windows into the host desktop?",
+        "options": [
+            "Guest Additions",
+            "Shared Folders",
+            "Seamless Mode",
+            "Virtual Networking"
+        ],
+        "answer": "Seamless Mode",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-005",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Microsoft Hyper-V allows the creation of three types of virtual switches. Which of the following is NOT one of them?",
+        "options": [
+            "External",
+            "Internal",
+            "Private",
+            "Public"
+        ],
+        "answer": "Public",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-006",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "In cloud service models, Platform as a Service (PaaS) provides:",
+        "options": [
+            "Virtualized hardware resources",
+            "Development tools and environment",
+            "Ready-to-use software applications",
+            "Networking hardware and protocols"
+        ],
+        "answer": "Development tools and environment",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-007",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "VMware ESXi is best described as:",
+        "options": [
+            "A Type 2 hypervisor requiring a host OS",
+            "A cloud service model",
+            "A Type 1 hypervisor for server virtualization",
+            "A desktop virtualization application"
+        ],
+        "answer": "A Type 1 hypervisor for server virtualization",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-008",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "The Rapid Elasticity characteristic of cloud computing refers to:",
+        "options": [
+            "The ability to stretch network cables",
+            "Quick scaling of resources up or down as needed",
+            "Fast data transmission speeds",
+            "Immediate software updates"
+        ],
+        "answer": "Quick scaling of resources up or down as needed",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-009",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "In VMware ICM Module 4, the recommended practice before making significant changes to a VM is to:",
+        "options": [
+            "Clone the VM",
+            "Take a snapshot",
+            "Shut down the VM",
+            "Increase the VM's memory"
+        ],
+        "answer": "Take a snapshot",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-010",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which of the following is a benefit of using virtualization?",
+        "options": [
+            "Increased hardware costs",
+            "Reduced server utilization",
+            "Isolation of applications",
+            "Limited scalability"
+        ],
+        "answer": "Isolation of applications",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-011",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Match the virtualization tools to their appropriate descriptions:",
+        "options": [
+            "1. VMware Workstation Pro",
+            "2. Oracle VM VirtualBox",
+            "3. Microsoft Hyper-V",
+            "4. VMware ESXi",
+            "5. Docker"
+        ],
+        "answer": [
+            "1 - A Type 2 hypervisor used for running multiple OS on a single PC",
+            "2 - An open-source Type 2 hypervisor supporting cross-platform use",
+            "3 - A Type 1 hypervisor designed for Windows environments",
+            "4 - A bare-metal hypervisor used in enterprise environments",
+            "5 - A containerization platform for deploying applications"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-012",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "In cloud computing, the service model where users are provided with applications over the internet is known as ______________.",
+        "options": null,
+        "answer": "Software as a Service (SaaS)",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-013",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "________________ is a software layer that enables multiple operating systems to share a single hardware host.",
+        "options": null,
+        "answer": "Hypervisor",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-014",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "The ______________ feature in virtualization allows you to save the state of a virtual machine at a specific point in time.",
+        "options": null,
+        "answer": "Snapshot",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-015",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "________________ is the process of creating a virtual version of something, such as hardware or a storage device.",
+        "options": null,
+        "answer": "Virtualization",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-016",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "In VMware, ______________ provides centralized management of virtualized hosts and VMs.",
+        "options": null,
+        "answer": "vCenter Server",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-017",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Explain the differences between Type 1 and Type 2 hypervisors. Provide examples of each and discuss scenarios where one might be preferred over the other.",
+        "options": null,
+        "answer": "Type 1 hypervisors run directly on hardware (e.g., VMware ESXi, Microsoft Hyper-V), while Type 2 hypervisors run on a host OS (e.g., VMware Workstation, VirtualBox). Type 1 is used for enterprise server virtualization, while Type 2 is used for development and testing.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-018",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Discuss the benefits and challenges of cloud computing in modern IT infrastructure. How does virtualization support cloud computing?",
+        "options": null,
+        "answer": "Cloud computing benefits include scalability, cost efficiency, and accessibility. Challenges include security and vendor lock-in. Virtualization enables efficient resource allocation and scalability in cloud environments.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-019",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Describe the process of creating a virtual machine in VMware Workstation Pro. Highlight the key steps and considerations during the setup.",
+        "options": null,
+        "answer": "Key steps: Open VMware Workstation, create a new VM, select OS type, allocate memory, configure disk, install OS, install VMware Tools.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-020",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Oracle VM VirtualBox offers \"Guest Additions\". Explain what this feature is and how it enhances the performance and usability of virtual machines.",
+        "options": null,
+        "answer": "\"Guest Additions\" enhances VM performance by enabling shared clipboard, drag-and-drop, improved display resolution, and seamless integration between host and guest OS.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-021",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "In the context of VMware ICM Module 1, define what is meant by a Software-Defined Data Center (SDDC) and discuss its importance in enterprise environments.",
+        "options": null,
+        "answer": "SDDC refers to a data center where all infrastructure components (compute, storage, networking) are virtualized and delivered as a service. It enhances automation, scalability, and efficiency in enterprise IT.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-022",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which of the following is NOT a characteristic of cloud computing?",
+        "options": [
+            "On-demand self-service",
+            "Broad network access",
+            "Limited resource pooling",
+            "Rapid elasticity"
+        ],
+        "answer": "Limited resource pooling",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-023",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "In virtualization, a Type 1 hypervisor is also known as:",
+        "options": [
+            "Hosted hypervisor",
+            "Bare-metal hypervisor",
+            "Client-side hypervisor",
+            "Nested hypervisor"
+        ],
+        "answer": "Bare-metal hypervisor",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-024",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "VMware Workstation Pro is classified as which type of hypervisor?",
+        "options": [
+            "Type 1 hypervisor",
+            "Type 2 hypervisor",
+            "Type 3 hypervisor",
+            "Cloud-based hypervisor"
+        ],
+        "answer": "Type 2 hypervisor",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-025",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which feature in Oracle VM VirtualBox allows seamless integration of guest windows into the host desktop?",
+        "options": [
+            "Guest Additions",
+            "Shared Folders",
+            "Seamless Mode",
+            "Virtual Networking"
+        ],
+        "answer": "Seamless Mode",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-026",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Microsoft Hyper-V allows the creation of three types of virtual switches. Which of the following is NOT one of them?",
+        "options": [
+            "External",
+            "Internal",
+            "Private",
+            "Public"
+        ],
+        "answer": "Public",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-027",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "In cloud service models, Platform as a Service (PaaS) provides:",
+        "options": [
+            "Virtualized hardware resources",
+            "Development tools and environment",
+            "Ready-to-use software applications",
+            "Networking hardware and protocols"
+        ],
+        "answer": "Development tools and environment",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-028",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "VMware ESXi is best described as:",
+        "options": [
+            "A Type 2 hypervisor requiring a host OS",
+            "A cloud service model",
+            "A Type 1 hypervisor for server virtualization",
+            "A desktop virtualization application"
+        ],
+        "answer": "A Type 1 hypervisor for server virtualization",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-029",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "The Rapid Elasticity characteristic of cloud computing refers to:",
+        "options": [
+            "The ability to stretch network cables",
+            "Quick scaling of resources up or down as needed",
+            "Fast data transmission speeds",
+            "Immediate software updates"
+        ],
+        "answer": "Quick scaling of resources up or down as needed",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-030",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "In VMware ICM Module 4, the recommended practice before making significant changes to a VM is to:",
+        "options": [
+            "Clone the VM",
+            "Take a snapshot",
+            "Shut down the VM",
+            "Increase the VM's memory"
+        ],
+        "answer": "Take a snapshot",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-031",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which of the following is a benefit of using virtualization?",
+        "options": [
+            "Increased hardware costs",
+            "Reduced server utilization",
+            "Isolation of applications",
+            "Limited scalability"
+        ],
+        "answer": "Isolation of applications",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-032",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Match the virtualization tools to their appropriate descriptions:",
+        "options": [
+            "1. VMware Workstation Pro",
+            "2. Oracle VM VirtualBox",
+            "3. Microsoft Hyper-V",
+            "4. VMware ESXi",
+            "5. Docker"
+        ],
+        "answer": [
+            "1 - A Type 2 hypervisor used for running multiple OS on a single PC",
+            "2 - An open-source Type 2 hypervisor supporting cross-platform use",
+            "3 - A Type 1 hypervisor designed for Windows environments",
+            "4 - A bare-metal hypervisor used in enterprise environments",
+            "5 - A containerization platform for deploying applications"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-033",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "In cloud computing, the service model where users are provided with applications over the internet is known as ______________.",
+        "options": null,
+        "answer": "Software as a Service (SaaS)",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-034",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "________________ is a software layer that enables multiple operating systems to share a single hardware host.",
+        "options": null,
+        "answer": "Hypervisor",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-035",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "The ______________ feature in virtualization allows you to save the state of a virtual machine at a specific point in time.",
+        "options": null,
+        "answer": "Snapshot",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-036",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "________________ is the process of creating a virtual version of something, such as hardware or a storage device.",
+        "options": null,
+        "answer": "Virtualization",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-037",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "In VMware, ______________ provides centralized management of virtualized hosts and VMs.",
+        "options": null,
+        "answer": "vCenter Server",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-038",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Explain the differences between Type 1 and Type 2 hypervisors. Provide examples of each and discuss scenarios where one might be preferred over the other.",
+        "options": null,
+        "answer": "Type 1 hypervisors run directly on hardware (e.g., VMware ESXi, Microsoft Hyper-V), while Type 2 hypervisors run on a host OS (e.g., VMware Workstation, VirtualBox). Type 1 is used for enterprise server virtualization, while Type 2 is used for development and testing.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-039",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Discuss the benefits and challenges of cloud computing in modern IT infrastructure. How does virtualization support cloud computing?",
+        "options": null,
+        "answer": "Cloud computing benefits include scalability, cost efficiency, and accessibility. Challenges include security and vendor lock-in. Virtualization enables efficient resource allocation and scalability in cloud environments.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-040",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Describe the process of creating a virtual machine in VMware Workstation Pro. Highlight the key steps and considerations during the setup.",
+        "options": null,
+        "answer": "Key steps: Open VMware Workstation, create a new VM, select OS type, allocate memory, configure disk, install OS, install VMware Tools.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-041",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Oracle VM VirtualBox offers \"Guest Additions\". Explain what this feature is and how it enhances the performance and usability of virtual machines.",
+        "options": null,
+        "answer": "\"Guest Additions\" enhances VM performance by enabling shared clipboard, drag-and-drop, improved display resolution, and seamless integration between host and guest OS.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-042",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "In the context of VMware ICM Module 1, define what is meant by a Software-Defined Data Center (SDDC) and discuss its importance in enterprise environments.",
+        "options": null,
+        "answer": "SDDC refers to a data center where all infrastructure components (compute, storage, networking) are virtualized and delivered as a service. It enhances automation, scalability, and efficiency in enterprise IT.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-043",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Which of the following is NOT a feature of VMware Workstation Pro?",
+        "options": [
+            "Snapshot management",
+            "Virtual machine cloning",
+            "Direct access to physical hardware",
+            "Multiple VM support"
+        ],
+        "answer": "Direct access to physical hardware",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-044",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Which file format is used to store virtual machines in VMware Workstation?",
+        "options": [
+            ".vmdk",
+            ".iso",
+            ".vmx",
+            ".exe"
+        ],
+        "answer": ".vmx",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-045",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "In VMware Workstation Pro, which feature allows you to run multiple virtual machines simultaneously?",
+        "options": [
+            "VMware Fusion",
+            "Virtual Machine Network",
+            "Virtual Machine Isolation",
+            "VMware Workstation Pro"
+        ],
+        "answer": "VMware Workstation Pro",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-046",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Which of the following can be used to manage the virtual network adapters in VMware Workstation?",
+        "options": [
+            "VMware vSphere",
+            "VMware Network Editor",
+            "VMware vCenter",
+            "VMware Fusion"
+        ],
+        "answer": "VMware Network Editor",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-047",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "VMware Workstation Pro is mainly used for:",
+        "options": [
+            "Cloud-based applications",
+            "Development and testing",
+            "Data storage management",
+            "Server virtualization"
+        ],
+        "answer": "Development and testing",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-048",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which of the following is a key feature of Oracle VM VirtualBox?",
+        "options": [
+            "Seamless mode",
+            "Hyper-V integration",
+            "Multiple guest OS per VM",
+            "Native cloud integration"
+        ],
+        "answer": "Seamless mode",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-049",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "In VirtualBox, which of the following file types represents a virtual machine disk image?",
+        "options": [
+            ".vmdk",
+            ".iso",
+            ".vdi",
+            ".vpx"
+        ],
+        "answer": ".vdi",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-050",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which of the following is NOT a supported host operating system for Oracle VM VirtualBox?",
+        "options": [
+            "Windows",
+            "Linux",
+            "MacOS",
+            "Chrome OS"
+        ],
+        "answer": "Chrome OS",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-051",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "In VirtualBox, a VM can be connected to the host network using:",
+        "options": [
+            "Host-only adapter",
+            "Internal network",
+            "NAT adapter",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-052",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which component is required to enable better guest OS performance in VirtualBox?",
+        "options": [
+            "Guest Additions",
+            "Host Extensions",
+            "VirtualBox Management Suite",
+            "VirtualBox Host Add-ons"
+        ],
+        "answer": "Guest Additions",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-053",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which of the following best describes the role of Hyper-V in virtualization?",
+        "options": [
+            "Cloud management tool",
+            "Type 1 hypervisor for running virtual machines",
+            "Type 2 hypervisor for running guest OS",
+            "Virtual machine monitoring tool"
+        ],
+        "answer": "Type 1 hypervisor for running virtual machines",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-054",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "In Hyper-V, which of the following is a virtual switch type?",
+        "options": [
+            "Internal",
+            "External",
+            "Private",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-055",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which of the following is NOT a feature of Microsoft Hyper-V?",
+        "options": [
+            "Snapshot management",
+            "Live migration",
+            "Multiple virtual CPUs per VM",
+            "Support for virtual hardware appliances"
+        ],
+        "answer": "Support for virtual hardware appliances",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-056",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "In Hyper-V, what feature allows you to move virtual machines between hosts without downtime?",
+        "options": [
+            "Live Migration",
+            "Snapshot",
+            "Hyper-V Replica",
+            "Dynamic Memory"
+        ],
+        "answer": "Live Migration",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-057",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which of the following is the correct command to start a virtual machine in Hyper-V using PowerShell?",
+        "options": [
+            "Start-VM",
+            "Run-VM",
+            "Start-VirtualMachine",
+            "VMStart"
+        ],
+        "answer": "Start-VM",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-058",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "In VMware ICM, which component is responsible for centralized management of virtual machines?",
+        "options": [
+            "vCenter Server",
+            "vSphere Client",
+            "VMware Workstation",
+            "ESXi"
+        ],
+        "answer": "vCenter Server",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-059",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which of the following is NOT a function of vSphere HA (High Availability)?",
+        "options": [
+            "Automatic VM restart",
+            "VMware Fault Tolerance",
+            "Clustered VM migration",
+            "VM monitoring"
+        ],
+        "answer": "Clustered VM migration",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-060",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "In VMware vSphere, which feature allows VMs to move from one host to another without interruption?",
+        "options": [
+            "VMware vMotion",
+            "VMware Fault Tolerance",
+            "VMware DRS",
+            "VMware HA"
+        ],
+        "answer": "VMware vMotion",
+        "question_type": "MCQ"
+    },
+
+
+
+
+
+
+
+
+    {
+        "id":"sv-061",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which of the following actions can be performed in the VMware vSphere Web Client?",
+        "options": [
+            "VM cloning",
+            "VM storage management",
+            "VM migration",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-062",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which of the following describes a virtual machine snapshot in VMware?",
+        "options": [
+            "A point-in-time copy of a virtual machine",
+            "A backup of the virtual machine",
+            "A clone of the virtual machine",
+            "A running instance of the VM"
+        ],
+        "answer": "A point-in-time copy of a virtual machine",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-063",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which of the following is the key benefit of cloud computing?",
+        "options": [
+            "Increased physical hardware requirements",
+            "On-demand resource scaling",
+            "Higher capital expenditure",
+            "Fewer software solutions"
+        ],
+        "answer": "On-demand resource scaling",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-064",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "What does IaaS stand for in cloud computing?",
+        "options": [
+            "Infrastructure as a Service",
+            "Integration as a Service",
+            "Internet as a Service",
+            "Information as a Service"
+        ],
+        "answer": "Infrastructure as a Service",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-065",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which of the following is an example of a Platform as a Service (PaaS)?",
+        "options": [
+            "AWS EC2",
+            "Google App Engine",
+            "Microsoft Azure Storage",
+            "Amazon S3"
+        ],
+        "answer": "Google App Engine",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-066",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "What is a hypervisor in the context of virtualization?",
+        "options": [
+            "A virtual machine monitor",
+            "A physical server",
+            "A cloud service",
+            "A storage solution"
+        ],
+        "answer": "A virtual machine monitor",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-067",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "In a private cloud, who manages and controls the cloud environment?",
+        "options": [
+            "A third-party provider",
+            "An organization itself",
+            "The general public",
+            "A hybrid cloud provider"
+        ],
+        "answer": "An organization itself",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-068",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Which of the following is a virtual disk format used by VMware Workstation?",
+        "options": [
+            ".vmdk",
+            ".iso",
+            ".vdi",
+            ".vpx"
+        ],
+        "answer": ".vmdk",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-069",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "What feature allows VMware Workstation to run guest operating systems in a seamless window?",
+        "options": [
+            "Seamless Mode",
+            "VMware Tools",
+            "SnapShot",
+            "Full-screen mode"
+        ],
+        "answer": "Seamless Mode",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-070",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Which of the following is used to manage the virtual network in VMware Workstation?",
+        "options": [
+            "Virtual Network Editor",
+            "vSphere Client",
+            "VMware Cloud Director",
+            "VMware Fusion"
+        ],
+        "answer": "Virtual Network Editor",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-071",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "How can you increase the memory allocation for a virtual machine in VMware Workstation?",
+        "options": [
+            "Edit the VM settings",
+            "Increase the physical host memory",
+            "Upgrade the operating system",
+            "Add a new hard drive"
+        ],
+        "answer": "Edit the VM settings",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-072",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "What is the maximum number of virtual machines you can run simultaneously in VMware Workstation Pro?",
+        "options": [
+            "Depends on the host hardware",
+            "5",
+            "10",
+            "Unlimited"
+        ],
+        "answer": "Depends on the host hardware",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-073",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which of the following is NOT supported in Oracle VM VirtualBox?",
+        "options": [
+            "USB device pass-through",
+            "3D acceleration",
+            "vMotion",
+            "Shared folders"
+        ],
+        "answer": "vMotion",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-074",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "How can you create a snapshot of a virtual machine in Oracle VM VirtualBox?",
+        "options": [
+            "Using VirtualBox Manager",
+            "By copying the VM folder",
+            "By using command-line tools",
+            "By exporting the VM"
+        ],
+        "answer": "Using VirtualBox Manager",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-075",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which of the following is required to run a 64-bit virtual machine in Oracle VM VirtualBox?",
+        "options": [
+            "64-bit host OS",
+            "64-bit processor",
+            "Enabled hardware virtualization in BIOS",
+            "All of the above"
+        ],
+        "answer": "All of the above",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-076",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which network adapter mode provides internet access to a virtual machine in VirtualBox?",
+        "options": [
+            "Bridged Adapter",
+            "Host-Only Adapter",
+            "Internal Network",
+            "NAT"
+        ],
+        "answer": "NAT",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-077",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which of the following is a correct method to add a new virtual disk to a virtual machine in VirtualBox?",
+        "options": [
+            "Attach it in VM settings",
+            "Insert it into the guest OS",
+            "Download from the internet",
+            "Create a new VM"
+        ],
+        "answer": "Attach it in VM settings",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-078",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which of the following Hyper-V components is used to manage virtual machines and hosts?",
+        "options": [
+            "Hyper-V Manager",
+            "VirtualBox Manager",
+            "vSphere Client",
+            "Hyper-V Console"
+        ],
+        "answer": "Hyper-V Manager",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-079",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which of the following storage options is recommended for running a Hyper-V virtual machine?",
+        "options": [
+            "Direct-attached storage",
+            "iSCSI",
+            "Shared storage",
+            "Network-attached storage"
+        ],
+        "answer": "Shared storage",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-080",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which of the following is NOT a type of virtual switch in Hyper-V?",
+        "options": [
+            "External",
+            "Private",
+            "Internal",
+            "Shared"
+        ],
+        "answer": "Shared",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-081",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which of the following is the default location for Hyper-V virtual machine files?",
+        "options": [
+            "C:Program FilesMicrosoft Hyper-V",
+            "C:UsersPublicDocumentsHyper-V",
+            "C:Virtual Machines",
+            "C:Hyper-V VM"
+        ],
+        "answer": "C:Virtual Machines",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-082",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "What is the purpose of Hyper-V Replica?",
+        "options": [
+            "To replicate virtual machine data across servers",
+            "To migrate virtual machines between hosts",
+            "To backup virtual machines",
+            "To integrate virtual machines with Active Directory"
+        ],
+        "answer": "To replicate virtual machine data across servers",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-083",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "In VMware vSphere, what is the function of Distributed Resource Scheduler (DRS)?",
+        "options": [
+            "Automatically moves VMs to balance resource usage",
+            "Performs VM backups",
+            "Patches VMs",
+            "Creates VM templates"
+        ],
+        "answer": "Automatically moves VMs to balance resource usage",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-084",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which of the following tasks is performed by VMware vCenter Server?",
+        "options": [
+            "Managing and monitoring ESXi hosts",
+            "Upgrading VMware Workstation",
+            "Creating VM snapshots",
+            "Setting up network switches"
+        ],
+        "answer": "Managing and monitoring ESXi hosts",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-085",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which technology in VMware vSphere allows a virtual machine to migrate to another host without downtime?",
+        "options": [
+            "vMotion",
+            "vCenter",
+            "vSphere HA",
+            "VMware Workstation"
+        ],
+        "answer": "vMotion",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-086",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which VMware feature allows centralized management of virtualized infrastructure?",
+        "options": [
+            "vSphere Web Client",
+            "vCenter Server",
+            "vCloud Director",
+            "VMware Horizon"
+        ],
+        "answer": "vCenter Server",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-087",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "What is the purpose of VMware Fault Tolerance?",
+        "options": [
+            "Provide a live replica of a VM for continuous availability",
+            "Migrate virtual machines between ESXi hosts",
+            "Backup virtual machine data",
+            "Create virtual machine snapshots"
+        ],
+        "answer": "Provide a live replica of a VM for continuous availability",
+        "question_type": "MCQ"
+    }
+,
+    {
+        "id":"sv-188",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "What is the primary purpose of virtualization in cloud computing?",
+        "options": ["Increase hardware costs", "Reduce resource efficiency", "Enable resource sharing", "Limit scalability"],
+        "answer": "Enable resource sharing",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-189",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "A _______ cloud combines resources from both public and private clouds.",
+        "options": null,
+        "answer": "hybrid",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-190",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Match the virtualization types with their descriptions:",
+        "options": ["1. Server Virtualization", "2. Desktop Virtualization", "3. Application Virtualization"],
+        "answer": [
+            "1 - Running multiple servers on one physical machine",
+            "2 - Delivering desktop environments to users remotely",
+            "3 - Isolating applications from the underlying OS"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-191",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Explain how multi-tenancy works in a public cloud environment.",
+        "options": null,
+        "answer": "Multi-tenancy allows multiple users or organizations to share the same physical resources while keeping their data and applications isolated through virtualization and security measures.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-192",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which of these is a disadvantage of cloud computing?",
+        "options": ["Cost savings", "Data security concerns", "Scalability", "Flexibility"],
+        "answer": "Data security concerns",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-193",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "The ability to quickly provision computing resources as needed is called _______.",
+        "options": null,
+        "answer": "rapid elasticity",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-194",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Match the cloud computing benefits with their examples:",
+        "options": ["1. Cost Efficiency", "2. Accessibility", "3. Disaster Recovery"],
+        "answer": [
+            "1 - Pay only for resources used",
+            "2 - Access services from any location",
+            "3 - Quick restoration of data"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-195",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Describe the role of APIs in cloud computing.",
+        "options": null,
+        "answer": "APIs enable interaction between different cloud services and applications, allowing automation, integration, and management of resources programmatically.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-196",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which cloud model is shared among multiple organizations with similar needs?",
+        "options": ["Public", "Private", "Hybrid", "Community"],
+        "answer": "Community",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-197",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "_______ is a software layer that abstracts hardware resources for virtual machines.",
+        "options": null,
+        "answer": "Hypervisor",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-198",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Match the cloud service models with their use cases:",
+        "options": ["1. IaaS", "2. PaaS", "3. SaaS"],
+        "answer": [
+            "1 - Hosting virtual machines",
+            "2 - Developing web applications",
+            "3 - Using email services"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-199",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Discuss the environmental benefits of cloud computing.",
+        "options": null,
+        "answer": "Cloud computing reduces energy consumption and carbon footprint by consolidating resources, optimizing hardware usage, and minimizing the need for physical infrastructure.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-200",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which of these is an example of a SaaS application?",
+        "options": ["Amazon EC2", "Google Drive", "Microsoft Azure", "VMware ESXi"],
+        "answer": "Google Drive",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-201",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "The practice of measuring and billing cloud resource usage is known as _______.",
+        "options": null,
+        "answer": "measured service",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-202",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Match the virtualization challenges with their explanations:",
+        "options": ["1. Performance Overhead", "2. Security Risks", "3. Resource Contention"],
+        "answer": [
+            "1 - Extra processing due to virtualization layer",
+            "2 - Potential vulnerabilities in shared environments",
+            "3 - Competition for CPU and memory among VMs"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-203",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Explain the difference between Type 1 and Type 2 hypervisors.",
+        "options": null,
+        "answer": "Type 1 hypervisors run directly on hardware (e.g., VMware ESXi), offering better performance, while Type 2 hypervisors run on a host OS (e.g., VirtualBox), making them easier to set up but less efficient.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-204",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which deployment model is most cost-effective for small businesses?",
+        "options": ["Public", "Private", "Hybrid", "Community"],
+        "answer": "Public",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-205",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "_______ enables multiple virtual machines to share a single physical server's resources.",
+        "options": null,
+        "answer": "Resource pooling",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-206",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Match the cloud terms with their meanings:",
+        "options": ["1. SLA", "2. CAPEX", "3. OPEX"],
+        "answer": [
+            "1 - Service Level Agreement defining service expectations",
+            "2 - Capital Expenditure for upfront costs",
+            "3 - Operational Expenditure for ongoing costs"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-207",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Discuss the impact of cloud computing on IT staffing needs.",
+        "options": null,
+        "answer": "Cloud computing reduces the need for on-site IT staff for hardware maintenance but increases demand for skills in cloud management, security, and integration.",
+        "question_type": "Essay"
+    }
+,
+    {
+        "id":"sv-208",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "What is the purpose of Unity Mode in VMware Workstation Pro?",
+        "options": ["Run VMs in the background", "Integrate guest apps into the host desktop", "Clone VMs", "Take snapshots"],
+        "answer": "Integrate guest apps into the host desktop",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-209",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "The _______ feature in VMware Workstation Pro enhances guest OS performance.",
+        "options": null,
+        "answer": "VMware Tools",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-210",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Match the VMware Workstation Pro actions with their purposes:",
+        "options": ["1. Suspend", "2. Power Off", "3. Reset"],
+        "answer": [
+            "1 - Pause the VM and save its state",
+            "2 - Shut down the VM completely",
+            "3 - Restart the VM"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-211",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Explain how to create a linked clone in VMware Workstation Pro.",
+        "options": null,
+        "answer": "Select an existing VM, choose 'Manage' > 'Clone', opt for 'Linked Clone' to create a VM that shares disks with the parent, then complete the wizard.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-212",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Which networking mode allows VMs to act as physical devices on the network?",
+        "options": ["NAT", "Bridged", "Host-only", "Custom"],
+        "answer": "Bridged",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-213",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "_______ allows file sharing between the host and guest OS in VMware Workstation Pro.",
+        "options": null,
+        "answer": "Shared Folders",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-214",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Match the VMware Workstation Pro virtual hardware with its role:",
+        "options": ["1. Virtual CD/DVD", "2. Virtual NIC", "3. Virtual Sound Card"],
+        "answer": [
+            "1 - Emulates optical drives",
+            "2 - Provides network connectivity",
+            "3 - Enables audio in the VM"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-215",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Describe the benefits of using linked clones instead of full clones.",
+        "options": null,
+        "answer": "Linked clones save disk space by sharing the parent VM’s disks and are faster to create, though they depend on the parent VM remaining intact.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-216",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Which option allows you to test software without affecting the original VM?",
+        "options": ["Snapshot", "Clone", "Template", "Export"],
+        "answer": "Snapshot",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-217",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "In VMware Workstation Pro, _______ enables direct access to a physical disk.",
+        "options": null,
+        "answer": "Raw Device Mapping",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-218",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Match the VMware Workstation Pro settings with their functions:",
+        "options": ["1. Memory", "2. Processors", "3. Display"],
+        "answer": [
+            "1 - Allocates RAM to the VM",
+            "2 - Assigns CPU cores to the VM",
+            "3 - Configures graphics options"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-219",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Explain the process of exporting a VM as an OVF file.",
+        "options": null,
+        "answer": "Select the VM, go to 'File' > 'Export to OVF', choose the destination, and confirm settings to create a portable VM package.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-220",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Which feature allows dragging files between host and guest OS?",
+        "options": ["Drag and Drop", "Shared Folders", "Clipboard Sharing", "Unity Mode"],
+        "answer": "Drag and Drop",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-221",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "The _______ option in VMware Workstation Pro creates a full copy of a VM.",
+        "options": null,
+        "answer": "Full Clone",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-222",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Match the VMware Workstation Pro snapshot options with their effects:",
+        "options": ["1. Revert", "2. Delete", "3. Take"],
+        "answer": [
+            "1 - Restores VM to previous state",
+            "2 - Removes snapshot and merges changes",
+            "3 - Captures current VM state"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-223",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Discuss the use of VMware Workstation Pro in a lab environment.",
+        "options": null,
+        "answer": "It allows creating isolated VMs for testing software, networks, or configurations without risking the host system, ideal for educational or experimental labs.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-224",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Which setting adjusts the number of CPU cores assigned to a VM?",
+        "options": ["Memory", "Processors", "Network", "Storage"],
+        "answer": "Processors",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-225",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "_______ is required to run 64-bit guest OSes in VMware Workstation Pro.",
+        "options": null,
+        "answer": "Hardware virtualization",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-226",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Match the VMware Workstation Pro file types with their purposes:",
+        "options": ["1. .vmx", "2. .vmdk", "3. .nvram"],
+        "answer": [
+            "1 - Configuration file for the VM",
+            "2 - Virtual disk file",
+            "3 - Stores BIOS settings"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-227",
+        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Explain how to configure a VM to boot from an ISO file.",
+        "options": null,
+        "answer": "In VM settings, select 'CD/DVD', choose 'Use ISO image file', browse to the ISO, and ensure it’s set to connect at power on.",
+        "question_type": "Essay"
+    }
+,
+    {
+        "id":"sv-228",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "What does Seamless Mode do in Oracle VM VirtualBox?",
+        "options": ["Runs VMs in the background", "Integrates guest apps into the host desktop", "Clones VMs", "Creates snapshots"],
+        "answer": "Integrates guest apps into the host desktop",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-229",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "The _______ feature in VirtualBox improves guest OS integration.",
+        "options": null,
+        "answer": "Guest Additions",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-230",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Match the VirtualBox actions with their purposes:",
+        "options": ["1. Pause", "2. Stop", "3. Reset"],
+        "answer": [
+            "1 - Suspends the VM temporarily",
+            "2 - Powers off the VM",
+            "3 - Reboots the VM"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-231",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Explain how to create a clone of a VM in VirtualBox.",
+        "options": null,
+        "answer": "Select the VM, click 'Machine' > 'Clone', choose full or linked clone, name it, and complete the process to duplicate the VM.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-232",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which networking mode isolates VMs from the external network?",
+        "options": ["NAT", "Bridged", "Internal", "Host-only"],
+        "answer": "Internal",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-233",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "_______ allows dragging files between host and guest in VirtualBox.",
+        "options": null,
+        "answer": "Drag and Drop",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-234",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Match the VirtualBox virtual hardware with its role:",
+        "options": ["1. Virtual Floppy", "2. Virtual Network", "3. Virtual USB"],
+        "answer": [
+            "1 - Emulates floppy drives",
+            "2 - Connects VM to networks",
+            "3 - Enables USB device passthrough"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-235",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Describe how to set up shared folders in VirtualBox.",
+        "options": null,
+        "answer": "In VM settings, go to 'Shared Folders', add a folder, specify the path and name, set access options, and mount it in the guest OS.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-236",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which feature saves the current state of a VM in VirtualBox?",
+        "options": ["Snapshot", "Clone", "Export", "Backup"],
+        "answer": "Snapshot",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-237",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "In VirtualBox, _______ runs VMs without a GUI.",
+        "options": null,
+        "answer": "VBoxHeadless",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-238",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Match the VirtualBox settings with their purposes:",
+        "options": ["1. Base Memory", "2. Video Memory", "3. Acceleration"],
+        "answer": [
+            "1 - Allocates RAM to the VM",
+            "2 - Sets graphics memory",
+            "3 - Enables hardware acceleration"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-239",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Explain the process of exporting a VM in VirtualBox.",
+        "options": null,
+        "answer": "Select the VM, go to 'File' > 'Export Appliance', choose the VM, set the format (e.g., OVA), and save it to a location.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-240",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which option allows VMs to share the host’s IP address?",
+        "options": ["NAT", "Bridged", "Host-only", "Internal"],
+        "answer": "NAT",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-241",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "The _______ command-line tool manages VirtualBox VMs.",
+        "options": null,
+        "answer": "VBoxManage",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-242",       
+         "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Match the VirtualBox snapshot actions with their effects:",
+        "options": ["1. Restore", "2. Delete", "3. Take"],
+        "answer": [
+            "1 - Reverts VM to a saved state",
+            "2 - Removes snapshot and merges changes",
+            "3 - Captures current VM state"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-243",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Discuss the advantages of VirtualBox being open-source.",
+        "options": null,
+        "answer": "Being open-source makes VirtualBox free, customizable, and supported by a community, allowing users to adapt it to specific needs.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-244",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which setting determines the amount of RAM allocated to a VM?",
+        "options": ["Base Memory", "Video Memory", "Acceleration", "Storage"],
+        "answer": "Base Memory",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-245",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "_______ is required to enable 3D acceleration in VirtualBox.",
+        "options": null,
+        "answer": "Hardware virtualization",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-246",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Match the VirtualBox file types with their uses:",
+        "options": ["1. .vdi", "2. .vbox", "3. .log"],
+        "answer": [
+            "1 - Virtual disk image",
+            "2 - VM configuration file",
+            "3 - VM activity log"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-247",
+        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Explain how to attach a USB device to a VM in VirtualBox.",
+        "options": null,
+        "answer": "In VM settings, go to 'USB', enable the USB controller, add a filter for the device, start the VM, and select it from 'Devices' > 'USB'.",
+        "question_type": "Essay"
+    }
+,
+    {
+        "id":"sv-248",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "What is the purpose of Hyper-V Integration Services?",
+        "options": ["Enhance guest OS performance", "Manage virtual switches", "Clone VMs", "Take snapshots"],
+        "answer": "Enhance guest OS performance",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-249",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "The _______ feature in Hyper-V provides automatic VM restart after a host failure.",
+        "options": null,
+        "answer": "High Availability",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-250",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Match the Hyper-V actions with their purposes:",
+        "options": ["1. Start", "2. Turn Off", "3. Save"],
+        "answer": [
+            "1 - Powers on the VM",
+            "2 - Forces VM shutdown",
+            "3 - Suspends VM and saves state"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-251",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Explain how to configure Hyper-V Replica for disaster recovery.",
+        "options": null,
+        "answer": "Enable replication on the primary VM, specify the replica server, configure replication settings (e.g., frequency), and start replication to duplicate the VM.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-252",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which virtual switch type connects VMs to the physical network?",
+        "options": ["External", "Internal", "Private", "Isolated"],
+        "answer": "External",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-253",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "_______ allows moving a VM between hosts without downtime in Hyper-V.",
+        "options": null,
+        "answer": "Live Migration",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-254",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Match the Hyper-V storage options with their features:",
+        "options": ["1. Fixed Size Disk", "2. Dynamically Expanding Disk", "3. Differencing Disk"],
+        "answer": [
+            "1 - Pre-allocates all space",
+            "2 - Grows as data is added",
+            "3 - Stores changes from a parent disk"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-255",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Describe the difference between Generation 1 and Generation 2 VMs in Hyper-V.",
+        "options": null,
+        "answer": "Generation 1 supports legacy hardware and BIOS, while Generation 2 uses UEFI, supports modern features like Secure Boot, and offers better performance.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-256",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which feature adjusts VM memory based on demand?",
+        "options": ["Dynamic Memory", "Static Memory", "Memory Reservation", "Memory Overcommit"],
+        "answer": "Dynamic Memory",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-257",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "In Hyper-V, _______ captures a VM’s state for later restoration.",
+        "options": null,
+        "answer": "Checkpoint",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-258",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Match the Hyper-V tools with their uses:",
+        "options": ["1. Hyper-V Manager", "2. Failover Cluster Manager", "3. PowerShell"],
+        "answer": [
+            "1 - Manages VMs graphically",
+            "2 - Configures high availability",
+            "3 - Automates Hyper-V tasks"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-259",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Explain how to export a VM in Hyper-V.",
+        "options": null,
+        "answer": "In Hyper-V Manager, select the VM, choose 'Export', specify a location, and confirm to save the VM files for transfer or backup.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-260",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which switch type allows VM-to-VM communication only?",
+        "options": ["External", "Internal", "Private", "NAT"],
+        "answer": "Private",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-261",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "The _______ disk format in Hyper-V supports up to 64 TB.",
+        "options": null,
+        "answer": "VHDX",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-262",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Match the Hyper-V checkpoint types with their uses:",
+        "options": ["1. Standard", "2. Production"],
+        "answer": [
+            "1 - Includes memory state",
+            "2 - Ensures application consistency"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-263",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Discuss the benefits of Hyper-V for small businesses.",
+        "options": null,
+        "answer": "Hyper-V reduces costs by consolidating servers, simplifies management with built-in tools, and supports disaster recovery with replication.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-264",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which setting enables hardware-assisted virtualization in Hyper-V?",
+        "options": ["VT-x/AMD-V", "SLAT", "DEP", "All of the above"],
+        "answer": "All of the above",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-265",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "_______ connects VMs to SAN storage in Hyper-V.",
+        "options": null,
+        "answer": "Virtual Fibre Channel",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-266",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Match the Hyper-V networking components with their roles:",
+        "options": ["1. Virtual Switch", "2. NIC Teaming", "3. VLAN"],
+        "answer": [
+            "1 - Connects VMs to networks",
+            "2 - Combines network adapters for redundancy",
+            "3 - Segments network traffic"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-267",
+        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Explain how to configure Dynamic Memory for a VM in Hyper-V.",
+        "options": null,
+        "answer": "In VM settings, go to 'Memory', enable Dynamic Memory, set minimum, maximum, and startup RAM, then apply the changes.",
+        "question_type": "Essay"
+    }
+,
+    {
+        "id":"sv-268",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "What is the role of VMware vSphere Client?",
+        "options": ["Manage ESXi hosts", "Configure virtual switches", "Monitor VM performance", "All of the above"],
+        "answer": "All of the above",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-269",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "The _______ component in vSphere provides software-defined storage.",
+        "options": null,
+        "answer": "vSAN",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-270",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Match the vSphere features with their benefits:",
+        "options": ["1. Storage vMotion", "2. FT", "3. vSphere Replication"],
+        "answer": [
+            "1 - Moves VM storage without downtime",
+            "2 - Provides continuous availability",
+            "3 - Replicates VMs for disaster recovery"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-271",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Explain the purpose of Distributed Resource Scheduler (DRS) in vSphere.",
+        "options": null,
+        "answer": "DRS automatically balances VM workloads across ESXi hosts based on resource usage, optimizing performance and utilization.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-272",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which feature moves a VM’s storage without interrupting its operation?",
+        "options": ["vMotion", "Storage vMotion", "HA", "DRS"],
+        "answer": "Storage vMotion",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-273",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "In vSphere, _______ ensures VMs restart on another host after a failure.",
+        "options": null,
+        "answer": "High Availability",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-274",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Match the vSphere networking types with their descriptions:",
+        "options": ["1. VMkernel", "2. Virtual Machine", "3. Management"],
+        "answer": [
+            "1 - Handles ESXi services like vMotion",
+            "2 - Connects VMs to networks",
+            "3 - Manages ESXi host traffic"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-275",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Describe how to create a resource pool in vCenter Server.",
+        "options": null,
+        "answer": "In vCenter, right-click a cluster or host, select 'New Resource Pool', name it, set CPU and memory limits or reservations, and save.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-276",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which vSphere feature encrypts VM data at rest?",
+        "options": ["VM Encryption", "Secure Boot", "vSphere Trust Authority", "DRS"],
+        "answer": "VM Encryption",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-277",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "The _______ file system in vSphere stores virtual machine files.",
+        "options": null,
+        "answer": "VMFS",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-278",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Match the vSphere deployment options with their uses:",
+        "options": ["1. Template", "2. Clone", "3. OVF"],
+        "answer": [
+            "1 - Pre-configured VM for mass deployment",
+            "2 - Exact copy of an existing VM",
+            "3 - Portable VM package"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-279",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Explain the benefits of vSphere Fault Tolerance.",
+        "options": null,
+        "answer": "Fault Tolerance creates a live replica of a VM on another host, ensuring zero downtime and data loss in case of host failure.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-280",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which option allows live migration of VMs between hosts?",
+        "options": ["vMotion", "Storage vMotion", "DRS", "HA"],
+        "answer": "vMotion",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-281",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "In vSphere, _______ provides a centralized interface for managing multiple clusters.",
+        "options": null,
+        "answer": "vCenter Server",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-282",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Match the vSphere monitoring tools with their functions:",
+        "options": ["1. vSphere Client", "2. ESXi Shell", "3. vRealize Operations"],
+        "answer": [
+            "1 - Monitors VM and host status",
+            "2 - Provides command-line access to ESXi",
+            "3 - Advanced performance analytics"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-283",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Discuss the role of vSphere in hybrid cloud environments.",
+        "options": null,
+        "answer": "vSphere integrates with public clouds (e.g., VMware Cloud on AWS), enabling seamless workload migration and management across on-premises and cloud resources.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-284",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which feature ensures only trusted software runs on an ESXi host?",
+        "options": ["Secure Boot", "VM Encryption", "vSphere Trust Authority", "HA"],
+        "answer": "Secure Boot",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-285",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "_______ is used to export a VM as a portable package in vSphere.",
+        "options": null,
+        "answer": "OVF",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-286",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Match the vSphere security features with their purposes:",
+        "options": ["1. Role-Based Access", "2. Lockdown Mode", "3. Audit Logs"],
+        "answer": [
+            "1 - Controls user permissions",
+            "2 - Restricts direct ESXi access",
+            "3 - Tracks administrative actions"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-287",
+        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Explain how to configure a VM to use a specific datastore in vSphere.",
+        "options": null,
+        "answer": "In vCenter, edit VM settings, go to 'Virtual Hardware', select the disk, choose a datastore from the list, and save the changes.",
+        "question_type": "Essay"
+    }
+,
+    {
+        "id":"sv-279",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which cloud service model provides virtualized computing resources over the internet?",
+        "options": ["IaaS", "PaaS", "SaaS", "FaaS"],
+        "answer": "IaaS",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-280",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "_______ is the process of creating a virtual version of a physical resource, such as a server or network.",
+        "options": null,
+        "answer": "Virtualization",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-281",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Match the cloud deployment models with their descriptions:",
+        "options": ["Public Cloud", "Private Cloud", "Hybrid Cloud"],
+        "answer": [
+            "Public Cloud - A cloud infrastructure shared by multiple organizations",
+            "Private Cloud - A cloud infrastructure dedicated to a single organization",
+            "Hybrid Cloud - A combination of public and private clouds"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-282",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Discuss the advantages of cloud computing for businesses.",
+        "options": null,
+        "answer": "Cloud computing offers scalability, cost savings, accessibility, and disaster recovery capabilities. It allows businesses to quickly scale resources up or down based on demand, reducing the need for upfront hardware investments. Cloud services are accessible from anywhere with an internet connection, facilitating remote work and collaboration. Additionally, cloud providers often have robust disaster recovery mechanisms, ensuring business continuity.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-283",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which of the following is a disadvantage of cloud computing?",
+        "options": ["Scalability", "Vendor lock-in", "Cost savings", "Accessibility"],
+        "answer": "Vendor lock-in",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-284",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "A _______ cloud is operated solely for a single organization.",
+        "options": null,
+        "answer": "private",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-285",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Match the cloud service models with their examples:",
+        "options": ["SaaS", "PaaS", "IaaS"],
+        "answer": [
+            "SaaS - Google Docs",
+            "PaaS - Microsoft Azure App Service",
+            "IaaS - Amazon EC2"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-286",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Explain the concept of multi-tenancy in cloud computing.",
+        "options": null,
+        "answer": "Multi-tenancy allows multiple customers to share the same physical infrastructure while keeping their data and applications isolated through virtualization and security measures.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-287",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which technology is commonly used to isolate virtual machines?",
+        "options": ["Hypervisor", "Container", "Docker", "Kubernetes"],
+        "answer": "Hypervisor",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-288",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "The ability to access cloud resources from any location is known as _______.",
+        "options": null,
+        "answer": "broad network access",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-289",
+        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Match the virtualization types with their descriptions:",
+        "options": ["Full Virtualization", "Paravirtualization", "Hardware-assisted Virtualization"],
+        "answer": [
+            "Full Virtualization - Entire OS runs without modification",
+            "Paravirtualization - Guest OS is modified to communicate with hypervisor",
+            "Hardware-assisted Virtualization - Uses CPU features to improve performance"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-290",        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Discuss the impact of cloud computing on energy efficiency.",
+        "options": null,
+        "answer": "Cloud computing reduces energy consumption by consolidating resources, optimizing utilization, and minimizing the need for on-premises hardware.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-291",        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which of the following is a benefit of server virtualization?",
+        "options": ["Increased hardware costs", "Reduced resource utilization", "Improved disaster recovery", "Higher energy consumption"],
+        "answer": "Improved disaster recovery",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-292",        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "_______ is a technique used to balance workloads across multiple servers in a cloud environment.",
+        "options": null,
+        "answer": "Load balancing",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-293",        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Match the cloud security concerns with their descriptions:",
+        "options": ["Data Privacy", "Compliance", "Denial of Service"],
+        "answer": [
+            "Data Privacy - Protecting sensitive information",
+            "Compliance - Meeting regulatory requirements",
+            "Denial of Service - Preventing service disruptions"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-294",        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Explain the differences between virtualization and cloud computing.",
+        "options": null,
+        "answer": "Virtualization is the technology that creates virtual resources, while cloud computing is a service model that delivers these resources over the internet with added features like scalability and on-demand access.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-295",        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Which cloud deployment model is ideal for organizations with shared regulatory needs?",
+        "options": ["Public", "Private", "Hybrid", "Community"],
+        "answer": "Community",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-296",        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "The _______ layer in a virtualized environment manages the physical hardware.",
+        "options": null,
+        "answer": "hypervisor",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-297",        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Match the cloud cost models with their explanations:",
+        "options": ["Pay-as-you-go", "Reserved Instances", "Spot Instances"],
+        "answer": [
+            "Pay-as-you-go - Pay only for resources used",
+            "Reserved Instances - Pre-commit to resources for a discount",
+            "Spot Instances - Bid on unused capacity at lower rates"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-298",        "course": "Systems Virtualization",
+        "category": "NDG: Cloud and Virtualization Concepts",
+        "question": "Explain how virtualization improves resource utilization.",
+        "options": null,
+        "answer": "Virtualization allows multiple VMs to run on a single physical server, maximizing CPU, memory, and storage usage compared to dedicated hardware.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-299",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Which feature allows you to run multiple VMs simultaneously in VMware Workstation Pro?",
+        "options": ["Snapshots", "Cloning", "Multi-threading", "Virtualization Engine"],
+        "answer": "Virtualization Engine",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-300",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "The _______ file in VMware Workstation Pro stores the VM's configuration settings.",
+        "options": null,
+        "answer": ".vmx",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-301",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Match the VMware Workstation Pro features with their purposes:",
+        "options": ["Unity Mode", "Snapshots", "Shared Folders"],
+        "answer": [
+            "Unity Mode - Integrates guest applications with host desktop",
+            "Snapshots - Saves VM states for rollback",
+            "Shared Folders - Shares files between host and guest"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-302",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Explain how to configure a VM to use a static IP address in VMware Workstation Pro.",
+        "options": null,
+        "answer": "Set the network adapter to Bridged mode in VM settings, then configure the static IP within the guest OS network settings.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-303",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Which option allows you to encrypt a VM in VMware Workstation Pro?",
+        "options": ["Edit Settings > Options > Encryption", "Clone > Encrypt", "Snapshot > Secure", "File > Encrypt VM"],
+        "answer": "Edit Settings > Options > Encryption",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-304",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "_______ is used to allocate additional CPU cores to a VM in VMware Workstation Pro.",
+        "options": null,
+        "answer": "Processor settings",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-305",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Match the VMware Workstation Pro storage options with their descriptions:",
+        "options": ["Virtual Disk", "Physical Disk", "CD/DVD Drive"],
+        "answer": [
+            "Virtual Disk - Emulated storage file",
+            "Physical Disk - Direct access to a physical disk",
+            "CD/DVD Drive - Connects to ISO or physical drive"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-306",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Describe the process of creating a linked clone in VMware Workstation Pro.",
+        "options": null,
+        "answer": "Select the VM, go to 'Manage' > 'Clone', choose 'Linked Clone', select a snapshot, and specify a name and location for the clone.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-307",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Which networking mode isolates the VM from the external network?",
+        "options": ["Bridged", "NAT", "Host-only", "Custom"],
+        "answer": "Host-only",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-308",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "The _______ tool in VMware Workstation Pro customizes virtual network settings.",
+        "options": null,
+        "answer": "Virtual Network Editor",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-309",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Match the VMware Workstation Pro actions with their shortcuts:",
+        "options": ["Power On", "Suspend", "Take Snapshot"],
+        "answer": [
+            "Power On - Ctrl+B",
+            "Suspend - Ctrl+Z",
+            "Take Snapshot - Ctrl+E"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-310",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Explain the benefits of using snapshots in VMware Workstation Pro.",
+        "options": null,
+        "answer": "Snapshots allow you to save a VM’s state, revert to it later, and test changes without permanent impact, enhancing experimentation and troubleshooting.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-311",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Which feature integrates guest applications into the host Desktop?",
+        "options": ["Unity Mode", "Seamless Mode", "Full Screen", "Shared Folders"],
+        "answer": "Unity Mode",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-312",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "_______ must be installed to enable Unity Mode in VMware Workstation Pro.",
+        "options": null,
+        "answer": "VMware Tools",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-313",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Match the VMware Workstation Pro network settings with their effects:",
+        "options": ["Bridged", "NAT", "Custom"],
+        "answer": [
+            "Bridged - VM appears as a separate device on the network",
+            "NAT - VM uses host’s IP via NAT",
+            "Custom - Allows manual network configuration"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-314",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Discuss how VMware Workstation Pro supports nested virtualization.",
+        "options": null,
+        "answer": "VMware Workstation Pro supports nested virtualization by enabling VT-x/AMD-V in VM settings, allowing hypervisors to run inside VMs for testing and development.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-315",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Which option allows you to export a VM as an OVF file?",
+        "options": ["File > Export to OVF", "Manage > Export", "Clone > OVF", "Settings > Export"],
+        "answer": "File > Export to OVF",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-316",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "The _______ setting controls the amount of RAM allocated to a VM.",
+        "options": null,
+        "answer": "Memory",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-317",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Match the VMware Workstation Pro cloning options with their characteristics:",
+        "options": ["Full Clone", "Linked Clone"],
+        "answer": [
+            "Full Clone - Independent VM copy",
+            "Linked Clone - Dependent on parent snapshot"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-318",        "course": "Systems Virtualization",
+        "category": "VMware Workstation Pro",
+        "question": "Explain how to troubleshoot a VM that fails to power on in VMware Workstation Pro.",
+        "options": null,
+        "answer": "Check the VM’s settings for resource conflicts, review the .log file for errors, ensure hardware virtualization is enabled, and verify VMware Tools installation.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-319",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which feature allows you to integrate guest desktop applications with the host?",
+        "options": ["Seamless Mode", "Full Screen Mode", "Scaled Mode", "Headless Mode"],
+        "answer": "Seamless Mode",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-320",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "The _______ file extension in VirtualBox represents a virtual disk image.",
+        "options": null,
+        "answer": ".vdi",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-321",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Match the VirtualBox network adapter types with their descriptions:",
+        "options": ["NAT Network", "Bridged Adapter", "Internal Network"],
+        "answer": [
+            "NAT Network - VMs share a NAT with defined boundaries",
+            "Bridged Adapter - VM connects directly to physical network",
+            "Internal Network - VMs communicate only with each other"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-322",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Explain how to configure a VM to use a shared folder in VirtualBox.",
+        "options": null,
+        "answer": "In VM settings, go to 'Shared Folders', add a folder, specify the path and name, set access options, and mount it in the guest OS.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-323",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which option enables 3D acceleration in VirtualBox?",
+        "options": ["Display > Enable 3D Acceleration", "Processor > Enable VT-x", "Storage > Enable 3D", "Network > Enable Acceleration"],
+        "answer": "Display > Enable 3D Acceleration",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-324",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "_______ is required to enable drag-and-drop functionality in VirtualBox.",
+        "options": null,
+        "answer": "Guest Additions",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-325",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Match the VirtualBox storage types with their characteristics:",
+        "options": ["Dynamically Allocated", "Fixed Size", "Differencing"],
+        "answer": [
+            "Dynamically Allocated - Grows as needed",
+            "Fixed Size - Pre-allocates all space",
+            "Differencing - Stores changes from parent disk"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-326",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Describe how to export a VM as an appliance in VirtualBox.",
+        "options": null,
+        "answer": "Select the VM, go to 'File' > 'Export Appliance', choose the VM, set the format (e.g., OVF), specify a location, and complete the export wizard.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-327",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which networking mode allows a VM to communicate with the host but not the external network?",
+        "options": ["NAT", "Bridged", "Host-only", "Internal"],
+        "answer": "Host-only",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-328",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "The _______ command starts a VM in VirtualBox from the command line.",
+        "options": null,
+        "answer": "VBoxManage startvm",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-329",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Match the VirtualBox snapshot options with their purposes:",
+        "options": ["Take", "Restore", "Delete"],
+        "answer": [
+            "Take - Captures current VM state",
+            "Restore - Reverts to a saved state",
+            "Delete - Removes a snapshot"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-330",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Explain the benefits of using dynamically allocated disks in VirtualBox.",
+        "options": null,
+        "answer": "Dynamically allocated disks save space by growing only as data is added, making them efficient for VMs with unpredictable storage needs.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-331",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which setting adjusts the number of virtual CPUs for a VM?",
+        "options": ["System > Processor", "Display > CPUs", "Storage > Controller", "Network > Adapter"],
+        "answer": "System > Processor",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-332",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "_______ allows you to run a VM in VirtualBox without a GUI.",
+        "options": null,
+        "answer": "Headless mode",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-333",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Match the VirtualBox acceleration options with their effects:",
+        "options": ["VT-x/AMD-V", "Nested Paging", "PAE/NX"],
+        "answer": [
+            "VT-x/AMD-V - Enables hardware virtualization",
+            "Nested Paging - Improves memory management",
+            "PAE/NX - Supports extended memory addressing"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-334",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Discuss how VirtualBox supports cross-platform virtualization.",
+        "options": null,
+        "answer": "VirtualBox runs on Windows, macOS, and Linux, allowing users to create and manage VMs across different host OSes with consistent functionality.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-335",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Which option allows you to attach an ISO file to a VM?",
+        "options": ["Storage > Optical Drive", "Display > ISO", "Network > ISO", "System > Boot"],
+        "answer": "Storage > Optical Drive",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-336",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "The _______ setting in VirtualBox controls video memory allocation.",
+        "options": null,
+        "answer": "Display",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-337",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Match the VirtualBox cloning options with their features:",
+        "options": ["Full Clone", "Linked Clone"],
+        "answer": [
+            "Full Clone - Creates a standalone copy",
+            "Linked Clone - References the original disk"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-338",        "course": "Systems Virtualization",
+        "category": "Oracle VM VirtualBox",
+        "question": "Explain how to troubleshoot a VM with network connectivity issues in VirtualBox.",
+        "options": null,
+        "answer": "Verify the network mode, check adapter settings, ensure the guest OS network configuration is correct, and confirm VirtualBox Host-Only Network Adapter is installed.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-339",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which feature allows you to move a VM’s storage to another location without downtime?",
+        "options": ["Live Migration", "Storage Migration", "Hyper-V Replica", "Quick Migration"],
+        "answer": "Storage Migration",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-340",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "The _______ file extension in Hyper-V represents a virtual hard disk.",
+        "options": null,
+        "answer": ".vhdx",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-341",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Match the Hyper-V networking types with their purposes:",
+        "options": ["External Switch", "Internal Switch", "Private Switch"],
+        "answer": [
+            "External Switch - Connects to physical network",
+            "Internal Switch - Connects VMs and host",
+            "Private Switch - Isolates VMs from host"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-342",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Explain how to configure a VM to use a legacy network adapter in Hyper-V.",
+        "options": null,
+        "answer": "In VM settings, add a 'Legacy Network Adapter' under 'Add Hardware', connect it to a virtual switch, and configure it in the guest OS.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-343",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which option enables enhanced session mode in Hyper-V?",
+        "options": ["View > Enhanced Session", "Settings > Integration Services", "Action > Enhanced Mode", "File > Session Settings"],
+        "answer": "View > Enhanced Session",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-344",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "_______ is used to enable high availability for VMs in Hyper-V.",
+        "options": null,
+        "answer": "Failover Clustering",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-345",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Match the Hyper-V disk types with their features:",
+        "options": ["Fixed Disk", "Dynamic Disk", "Pass-through Disk"],
+        "answer": [
+            "Fixed Disk - Allocates space upfront",
+            "Dynamic Disk - Expands as needed",
+            "Pass-through Disk - Uses a physical disk directly"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-346",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Describe how to create a checkpoint in Hyper-V.",
+        "options": null,
+        "answer": "In Hyper-V Manager, right-click the VM, select 'Checkpoint', name it if desired, and wait for the process to complete.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-347",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which feature provides automatic VM restarts after a host failure?",
+        "options": ["Hyper-V Replica", "Failover Clustering", "Live Migration", "Storage Migration"],
+        "answer": "Failover Clustering",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-348",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "The _______ service must be enabled for dynamic memory to work in Hyper-V.",
+        "options": null,
+        "answer": "Integration Services",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-349",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Match the Hyper-V security features with their purposes:",
+        "options": ["Secure Boot", "Shielded VMs", "Virtual TPM"],
+        "answer": [
+            "Secure Boot - Verifies OS integrity",
+            "Shielded VMs - Protects against tampering",
+            "Virtual TPM - Enables encryption support"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-350",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Explain the differences between Generation 1 and Generation 2 VMs in Hyper-V.",
+        "options": null,
+        "answer": "Generation 1 VMs support legacy hardware and BIOS, while Generation 2 VMs use UEFI, support Secure Boot, and offer better performance but require modern OSes.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-351",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which option allows you to import a VM in Hyper-V?",
+        "options": ["Action > Import Virtual Machine", "File > Import", "Settings > Import", "Manage > Import VM"],
+        "answer": "Action > Import Virtual Machine",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-352",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "_______ is the PowerShell cmdlet to start a VM in Hyper-V.",
+        "options": null,
+        "answer": "Start-VM",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-353",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Match the Hyper-V checkpoint options with their effects:",
+        "options": ["Apply", "Delete", "Export"],
+        "answer": [
+            "Apply - Restores VM to checkpoint",
+            "Delete - Removes checkpoint",
+            "Export - Saves checkpoint as a standalone VM"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-354",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Discuss the advantages of using Hyper-V Replica for disaster recovery.",
+        "options": null,
+        "answer": "Hyper-V Replica provides asynchronous replication of VMs to a secondary site, ensuring data availability and minimizing downtime during disasters.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-355",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Which setting allows you to configure VLAN tagging for a VM?",
+        "options": ["Network Adapter > VLAN", "Processor > VLAN", "Memory > VLAN", "Storage > VLAN"],
+        "answer": "Network Adapter > VLAN",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-356",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "The _______ feature in Hyper-V allows VMs to share memory pages.",
+        "options": null,
+        "answer": "Dynamic Memory",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-357",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Match the Hyper-V management tools with their functions:",
+        "options": ["Hyper-V Manager", "PowerShell", "Failover Cluster Manager"],
+        "answer": [
+            "Hyper-V Manager - GUI for VM management",
+            "PowerShell - Command-line automation",
+            "Failover Cluster Manager - High-availability configuration"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-358",        "course": "Systems Virtualization",
+        "category": "Microsoft Hyper-V",
+        "question": "Explain how to troubleshoot a VM that fails to start in Hyper-V.",
+        "options": null,
+        "answer": "Check event logs, verify resource availability, ensure hardware virtualization is enabled, and confirm Integration Services are installed and updated.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-359",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which feature ensures continuous VM availability during host failure?",
+        "options": ["vMotion", "High Availability (HA)", "Distributed Resource Scheduler (DRS)", "Fault Tolerance (FT)"],
+        "answer": "Fault Tolerance (FT)",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-360",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "The _______ file extension in vSphere represents a virtual disk.",
+        "options": null,
+        "answer": ".vmdk",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-361",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Match the vSphere storage types with their descriptions:",
+        "options": ["VMFS", "NFS", "vSAN"],
+        "answer": [
+            "VMFS - VMware’s clustered file system",
+            "NFS - Network file system protocol",
+            "vSAN - Software-defined storage solution"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-362",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Explain how to configure a VM to use a specific port group in vSphere.",
+        "options": null,
+        "answer": "In vSphere Client, edit VM settings, select the network adapter, choose the desired port group from the drop-down, and save the configuration.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-363",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which option allows you to export a VM as an OVF template in vSphere?",
+        "options": ["File > Export OVF Template", "Actions > Export", "Settings > Export", "Manage > Export OVF"],
+        "answer": "File > Export OVF Template",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-364",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "_______ is used to automate vSphere tasks using scripts.",
+        "options": null,
+        "answer": "PowerCLI",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-365",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Match the vSphere availability features with their purposes:",
+        "options": ["HA", "FT", "vSphere Replication"],
+        "answer": [
+            "HA - Restarts VMs after host failure",
+            "FT - Provides zero-downtime redundancy",
+            "vSphere Replication - Replicates VMs for disaster recovery"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-366",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Describe how to create a resource pool in vSphere.",
+        "options": null,
+        "answer": "In vSphere Client, right-click a cluster, select 'New Resource Pool', name it, set CPU and memory limits or reservations, and assign VMs as needed.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-367",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which feature optimizes VM placement across hosts?",
+        "options": ["vMotion", "DRS", "HA", "FT"],
+        "answer": "DRS",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-368",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "The _______ file in vSphere stores snapshot metadata.",
+        "options": null,
+        "answer": ".vmsn",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-369",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Match the vSphere network types with their characteristics:",
+        "options": ["Standard Switch", "Distributed Switch", "NSX"],
+        "answer": [
+            "Standard Switch - Host-level networking",
+            "Distributed Switch - Centralized multi-host networking",
+            "NSX - Advanced network virtualization"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-370",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Explain the benefits of using Distributed Resource Scheduler (DRS) in vSphere.",
+        "options": null,
+        "answer": "DRS automatically balances VM workloads across ESXi hosts, optimizing resource utilization and performance by migrating VMs to less loaded hosts using vMotion.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-371",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which option allows you to take a snapshot of a VM in vSphere?",
+        "options": ["Actions > Take Snapshot", "File > Snapshot", "Settings > Snapshot", "Manage > Capture"],
+        "answer": "Actions > Take Snapshot",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"372",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "_______ is the protocol used by ESXi to connect to NFS storage.",
+        "options": null,
+        "answer": "NFS",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-373",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Match the vSphere roles with their permissions:",
+        "options": ["Administrator", "Read-Only", "Virtual Machine User"],
+        "answer": [
+            "Administrator - Full control over all objects",
+            "Read-Only - View-only access",
+            "Virtual Machine User - Operate VMs but not modify them"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id":"sv-374",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Discuss how vSphere Fault Tolerance (FT) ensures VM uptime.",
+        "options": null,
+        "answer": "vSphere FT maintains a secondary VM in lockstep with the primary, instantly switching to it if the primary fails, ensuring zero downtime.",
+        "question_type": "Essay"
+    },
+    {
+        "id":"sv-375",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Which feature allows you to encrypt a VM in vSphere?",
+        "options": ["VM Encryption", "Secure Boot", "vSphere Trust Authority", "DRS Encryption"],
+        "answer": "VM Encryption",
+        "question_type": "MCQ"
+    },
+    {
+        "id":"sv-376",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "The _______ setting in vSphere controls CPU resource allocation for a VM.",
+        "options": null,
+        "answer": "Resource Allocation",
+        "question_type": "Fill"
+    },
+    {
+        "id":"sv-377",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Match the vSphere snapshot actions with their effects:",
+        "options": ["Revert", "Delete", "Consolidate"],
+        "answer": [
+            "Revert - Restores VM to snapshot state",
+            "Delete - Removes snapshot",
+            "Consolidate - Merges snapshot data into base disk"
+        ],
+        "question_type": "Match"
+    },
+    {
+        "id": "sv-378",        "course": "Systems Virtualization",
+        "category": "VMware ICM Module 1 & 4",
+        "question": "Explain how to troubleshoot a VM with performance issues in vSphere.",
+        "options": null,
+        "answer": "Use vSphere Client to check resource usage, review logs, adjust CPU/memory reservations, and use ESXTOP for real-time performance analysis.",
+        "question_type": "Essay"
+    }
+]
