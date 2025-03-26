@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Category Menu */
+#category-menu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Flashcards */
+.flashcards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.flashcard {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.flashcard:hover {
+    transform: scale(1.05);
+}
+
+.flashcard .question {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.flashcard .answer {
+    font-size: 16px;
+    color: #16a085;
+}
+
+.flashcard .options {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.flashcard .options ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flashcard .options li {
+    background-color: #ecf0f1;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+/* Button for adding a new question */
+#add-question-btn {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#add-question-btn:hover {
+    background-color: #2980b9;
+}

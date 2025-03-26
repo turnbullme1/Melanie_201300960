@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A Northern Ontario small business specializing in custom gifts and creations.">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome to Meezers Creations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#nav_menu').slicknav({ prependTo: "#mobile_menu" });
+        });
+    </script>
+
+</head>
+
+
+<header>
+    <img src="Images/site/mclogo-removebg-preview.png" alt="logo">
+    <h1>Meezers Creations</h1>
+   
+    <nav id="mobile_menu"></nav>
+   
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="mc.html">Main</a></li>
+            <li><a href="store.html">Shop</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="order.html">Order Form</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <form id="contact" action="contact.php" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" autofocus required><br>
+
+        <label for="email">Your email address:</label>
+        <input type="email" id="email" required><br>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" required><br>
+
+        <label for="message">Message:</label>
+        <textarea id="Message:" placeholder="What would you like to say or ask?"></textarea><br>
+
+        <input type="submit" id="submit" value=" Send Message ">
+    </form>
+</body>
+
+<footer>
+    <p>
+    <ul>
+        <li>Quick Links</li>
+        <li><a href="mc.html">Main</a></li>
+        <li><a href="store.html">Shop</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="order.html">Order Form</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+    </ul>
+    </p>
+    <p>&copy; 2024 Meezers Creations. All rights reserved.</p>
+</footer>
+
+</html>
