@@ -1,0 +1,1 @@
+This is a compilation of all micro programs and works I have learned or participated in through my college diploma. Feel free to explore. Most of this code can also be found elsewhere on the internet (other Git repositories, W3 Schools, etc), and showcase my overall experience.
